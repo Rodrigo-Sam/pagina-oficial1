@@ -306,3 +306,14 @@ a:hover {
     transform: translateX(0);
   }
 }
+
+@media screen and (max-width: 429px) {
+        .menu-topo{
+          display: none;
+        }
+  
+        .text, .img-fundo {
+            flex-direction: column;
+        }
+
+}
