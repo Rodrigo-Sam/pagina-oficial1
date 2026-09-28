@@ -58,7 +58,17 @@ section {
 
 .section-text { min-width: 360px; max-width: 500px; animation: entrarEsquerda 0.8s cubic-bezier(0.22, 1, 0.36, 1) both; }
 .section-text h1 { font-size: 48px; font-weight: 900; line-height: 0.95; letter-spacing: -1px; text-transform: uppercase; }
-.section-text h1 span { color: #FFC700; display: block; font-size: 42px; }
+.section-text h1 span { 
+  color: #FFC700; 
+  display: block; 
+  font-size: 42px; 
+  transition: 0.3s;
+}
+
+a:hover{ transform: scale(1.05); box-shadow: 0 0 20px rgba(255,255,255,0.8);}
+
+span:hover{ transform: scale(1.05); box-shadow: 0 0 20px rgba(255,255,255,0.8);}
+
 .section-text p { font-size: 10px; letter-spacing: 1.5px; margin: 15px 0 25px; font-weight: 700; line-height: 1.6; opacity: 0.9; }
 
 .section-text .btn, .btn-caixa {
@@ -72,7 +82,8 @@ section {
   text-decoration: none;
   transition: 0.3s;
 }
-.section-text .btn:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(255,199,0,0.8); }
+.section-text .btn, .btn-caixa:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(255,255,255,0.8); }
+
 
 .text {
   min-width: 230px;
