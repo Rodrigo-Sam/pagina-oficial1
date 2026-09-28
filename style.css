@@ -92,10 +92,57 @@ section {
 @keyframes entrarEsquerda{ from{opacity:0; transform: translateX(-100px)} to{opacity:1; transform: translateX(0)} }
 @keyframes entrarDireita{ from{opacity:0; transform: translateX(80px)} to{opacity:1; transform: translateX(0)} }
 
-.footer{ width: 100%; padding: 25px 20px; background: #080808; border-top: 1px solid rgba(255,199,0,0.15); text-align: center; }
-.footer p{ color: rgba(255,255,255,0.6); font-size: 13px; margin: 4px 0; }
-.footer a{ background: #FFC700; color: #000 !important; padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-decoration: none; }
+.footer{
+  width: 100%;
+  padding: 25px 20px;
+  background: #080808;
+  border-top: 1px solid rgba(255,199,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+}
+.footer p{
+  color: rgba(255,255,255,0.6);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.footer a{
+  background: #FFC700;
+  color: #000 !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
 
+
+/* BOTÃO VER OS PROJETOS - AMARELO COM SHADOW */
+.text a {
+  display: inline-block !important;
+  background: #FFC700 !important;
+  color: #111 !important;
+  padding: 10px 22px !important;
+  font-weight: 900 !important;
+  font-size: 11px !important;
+  border-radius: 12px !important;
+  text-decoration: none !important;
+  margin-top: 10px !important;
+  letter-spacing: 1px !important;
+  transition: 0.3s !important;
+  box-shadow: 0 0 0 transparent !important;
+}
+
+.text a:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 20px rgba(255, 199, 0, 0.8) !important;
+}
+
+.footer a{ background: #FFC700; color: #000 !important; padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; text-decoration: none; }
 .menu-topo a{ background: transparent !important; color: #fff !important; padding: 0 12px !important; font-size: 14px; text-decoration: none; }
 
 /* ====== RESPONSIVO ====== */
