@@ -19,5 +19,5 @@ Personal portfolio developed to showcase my work as a front-end developer based 
 - Responsive design
 - Focus on UX for conversion
 
-### 🎯 Objetivo
-Criar uma landing page pessoal que passe profissionalismo, proximidade (Bauru-SP) e gere orçamentos. O design escuro + amarelo foi pensado para destacar os CTAs e minha foto.
+### 🎯 Objective
+To create a personal landing page that conveys professionalism and a local feel (Bauru, SP) while generating quote requests. The dark and yellow color scheme was chosen to make the CTAs and my photo stand out.
